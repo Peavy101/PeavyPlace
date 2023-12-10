@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Itim';
+    color: white;
+    margin: 30px;
+}

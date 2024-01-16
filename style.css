@@ -24,3 +24,15 @@ main {
     max-width: 100vh;
     text-align: center;
 }
+
+h1 {
+    font-size: xxx-large;
+}
+
+.home-text {
+    font-size: larger;
+}
+
+li {
+    font-size: large;
+}

@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: url('starry.gif');
+    background-repeat: repeat;
 }
 
 main {

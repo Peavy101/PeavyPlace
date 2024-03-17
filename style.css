@@ -1,6 +1,8 @@
 body {
     background-image: url('starry.gif');
     background-repeat: repeat;
+    overflow-x: hidden;
+    background-color: black;
 }
 
 main {
@@ -27,6 +29,7 @@ main {
 
 h1 {
     font-size: xxx-large;
+    color: white;
 }
 
 .home-text {
@@ -36,3 +39,35 @@ h1 {
 li {
     font-size: large;
 }
+
+.shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85vh;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+}
+
+.showText {
+    padding: 15px;
+}
+
+.rightSide {
+    text-align: right;
+}
+/* will implement this when I have more time (responsiveness) */
+/* @media screen and (max-width: 600px) {
+    .shows {
+        width: 50vh;
+    }
+
+    .show {
+        flex-direction: column;
+    }
+} */
